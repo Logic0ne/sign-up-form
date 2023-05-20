@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <div id="left">
+            <div id="banner">
+                <img src="odin-lined.png" alt="">
+                <h1 id="title">ODIN</h1>
+            </div>
+        </div>
+        <div id="right">
+            <p>
+                This is not a real online service! You know you need something like This
+                in your life to help you realize your deepest dreams. <br>
+                Sign up now to get started.
+            </p>
+            <p>
+                You know you want to.
+            </p>
+            <form action="#" method="post">
+                <div id="card">
+                    <legend>Let's do This</legend>
+                    <div id="formbox">
+            
+                        <div id="leftcard">
+                    
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name="firstname" id="firstname">
+    
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+    
+                            <label for="password">*PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+        
+                        </div>
+                        <div id="rightcard">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name="lastname" id="lastname">
+            
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="phone" name="phone" id="phone">
+            
+                            <label for="confirm-password">*CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" onchange="checkpw();" required>
+                        </div>
+                    </div>
+                </div>
+
+                <button type="submit" id="submit">Create Account</button>
+                <div id="account">
+                    <div>Already have an account?</div>
+                    <a href="google.come">Log In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
